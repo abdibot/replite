@@ -39,8 +39,8 @@
     },
     "registrationId": 83,
     "advSecretKey": "QBknxLAUZyl3l5IUNiYrli0rUknBGeIcIzCJ5W2cHtA=",
-    "nextPreKeyId": 78,
-    "firstUnuploadedPreKeyId": 78,
+    "nextPreKeyId": 80,
+    "firstUnuploadedPreKeyId": 80,
     "serverHasPreKeys": true,
     "account": {
       "details": "CJTZn94FEKaxs5MGGAM=",
@@ -578,6 +578,26 @@
           "type": "Buffer",
           "data": "2eiahWXuMx04t5V/Z2Z9mR7s01u6jmOsu0ZA5/GR40o="
         }
+      },
+      "78": {
+        "private": {
+          "type": "Buffer",
+          "data": "sOu78Lrq621L34lf7FnjiHsNTIYv624oR3mT8x24xEU="
+        },
+        "public": {
+          "type": "Buffer",
+          "data": "dCu5+z56qiOC4NR1TMJD1QwNZDuyoP4xv6mdwGG6Xzc="
+        }
+      },
+      "79": {
+        "private": {
+          "type": "Buffer",
+          "data": "8PldRU3wmDHrDyECzISgpWuOBK65sK3S84P7fWRkGHc="
+        },
+        "public": {
+          "type": "Buffer",
+          "data": "pmN3NzQa9QvRnd0PKjkUFpsahzIiEPMnPYLKKMG8/zA="
+        }
       }
     },
     "sessions": {
@@ -613,8 +633,8 @@
               },
               "Bez8o6VAQ1VxunDQ/lEfRWAcR8EX+XgCg5iuaeHSrcs2": {
                 "chainKey": {
-                  "counter": 22,
-                  "key": "l6qzX2o8ms5Pek8E7nYT+rHOAO21K2vatZCCfXUoXMc="
+                  "counter": 24,
+                  "key": "k3Qs1a43qPvVG0XKAoz2w5vtlat/RQEFyDEiMam+ZSQ="
                 },
                 "chainType": 1,
                 "messageKeys": {}
@@ -683,7 +703,7 @@
             "indexInfo": {
               "baseKey": "BTeT+8PQC4h4ypiUgyln0FkX2hyxp9bR/D+5tgUtEHJv",
               "baseKeyType": 2,
-              "closed": -1,
+              "closed": 1651319446878,
               "used": 1651311422641,
               "created": 1651300583010,
               "remoteIdentityKey": "BfO2YMEN+d48elW4+zokA5HTgGy5ISURfLY9SzPWodto"
@@ -860,6 +880,53 @@
                 "messageKeys": {}
               }
             }
+          },
+          "Bain0aUHTFCvU2R+6T2kBm1aiDo1xFwkAvuX3yKRYcBP": {
+            "registrationId": 1468339995,
+            "currentRatchet": {
+              "ephemeralKeyPair": {
+                "pubKey": "BVfGW9CqKk+ciBo3A0OqvDxOW1x3Jbr26GBjEuOxCVdo",
+                "privKey": "GALK0AHhbP2JaK2BWhGEukhNRBnWLgV9XaWiDA8fpHo="
+              },
+              "lastRemoteEphemeralKey": "BTd/TlMIswINqug0i3av1VXgh+nc5DmkYFvyRHuO7Nx2",
+              "previousCounter": 0,
+              "rootKey": "sa3Y/VSr0httmULbDENVVCJQiXWWjeLYtdZ8uCwO5uE="
+            },
+            "indexInfo": {
+              "baseKey": "Bain0aUHTFCvU2R+6T2kBm1aiDo1xFwkAvuX3yKRYcBP",
+              "baseKeyType": 2,
+              "closed": -1,
+              "used": 1651319543620,
+              "created": 1651319446919,
+              "remoteIdentityKey": "BfO2YMEN+d48elW4+zokA5HTgGy5ISURfLY9SzPWodto"
+            },
+            "_chains": {
+              "BQF8XMmAYb1tzg/H+tOivuVBdVVBgbjCV0k+oJWDhY8F": {
+                "chainKey": {
+                  "counter": 1
+                },
+                "chainType": 2,
+                "messageKeys": {}
+              },
+              "BTd/TlMIswINqug0i3av1VXgh+nc5DmkYFvyRHuO7Nx2": {
+                "chainKey": {
+                  "counter": 2,
+                  "key": "13o06m6kCnolI8uLxb1R8EFSBpwX3ofLNpsyVGVGKkg="
+                },
+                "chainType": 2,
+                "messageKeys": {
+                  "0": "nnVHRNrPmrfwmafwhzHp2HekTJNGLx1Yn9bPvKuv4SA="
+                }
+              },
+              "BVfGW9CqKk+ciBo3A0OqvDxOW1x3Jbr26GBjEuOxCVdo": {
+                "chainKey": {
+                  "counter": 0,
+                  "key": "9BQB26QT71VRBJVApZQ7lcDko9rEbavV0qVbN5DCWY4="
+                },
+                "chainType": 1,
+                "messageKeys": {}
+              }
+            }
           }
         },
         "version": "v1"
@@ -888,8 +955,8 @@
             "_chains": {
               "BY2dH0znW77o+kTCHcTaZnKX2PNrioFhXDebiY0Vq+J7": {
                 "chainKey": {
-                  "counter": 0,
-                  "key": "3wbOkURTfCPrAOuoq3LcG+kOxc5qSaFmdYOXDdaX+rY="
+                  "counter": 1,
+                  "key": "/8Cwxw9Q7iuHt2nvMwT7TEr9yrb4l5xlll3g46wHNug="
                 },
                 "chainType": 2,
                 "messageKeys": {}
@@ -2222,8 +2289,8 @@
             "_chains": {
               "BVa++JStvDQE/9zI9mhRJ6zAN6OSnVmBREiarNP/yJxm": {
                 "chainKey": {
-                  "counter": 22,
-                  "key": "gj+SIHqbrNUJCSpzPL17j/K+wZghTU+x6n/ZvXknUi4="
+                  "counter": 24,
+                  "key": "mV+CW7kD7I8Tvz/PHtzulJgS46KzTQBWh7pkcqKnC8s="
                 },
                 "chainType": 1,
                 "messageKeys": {}
@@ -2261,8 +2328,8 @@
             "_chains": {
               "BflrkUHuRc2pyAcAkzdH/AuNw/2AYvkUjgIcqrHsxrN/": {
                 "chainKey": {
-                  "counter": 22,
-                  "key": "AeBzhxm8lc9jmeaBpXg05kCGnenWlFWKFC3JNcHzU/w="
+                  "counter": 24,
+                  "key": "Cgxz2G02cD/z0z4DioqwrfCVIr/kP1LEt1JWQxo2ENM="
                 },
                 "chainType": 1,
                 "messageKeys": {}
@@ -3456,6 +3523,17 @@
           },
           "senderSigningKey": {
             "public": "BWcygfIoUPVJkG+aQBL4fIcn7KKJrMIzIEqyMDyC19x7"
+          },
+          "senderMessageKeys": []
+        },
+        {
+          "senderKeyId": 1420540371,
+          "senderChainKey": {
+            "iteration": 6,
+            "seed": "c+b1jpH6usOoqmxz55cgi7yQLUG3qFNb3ydxGWa2+kg="
+          },
+          "senderSigningKey": {
+            "public": "BWcygfIoUPVJkG+aQBL4fIcn7KKJrMIzIEqyMDyC19x7"
           }
         }
       ],
@@ -4070,6 +4148,17 @@
           },
           "senderSigningKey": {
             "public": "BVo6IVT7lymW7QvrZR97+eXpXnuK/LPEUp7eaOoqODpT"
+          },
+          "senderMessageKeys": []
+        },
+        {
+          "senderKeyId": 1290992239,
+          "senderChainKey": {
+            "iteration": 1,
+            "seed": "gEB7HRQBkVaq2fOvLtXIHoVE0n04uY+NDzUlQ+Ejlo8="
+          },
+          "senderSigningKey": {
+            "public": "BfEqF9azcr3t4VCNkrF6Xptui7U9KgjWf2jXAYEX6846"
           }
         }
       ]
